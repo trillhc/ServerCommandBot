@@ -14,7 +14,7 @@ bot = Bot(
         guilds=True, members=True, messages=True, reactions=True, presences=True
     )
 )
-
+print("wtf")
 for file in os.listdir("cogs"):
     if file.endswith(".py"):
         print(str(file))
