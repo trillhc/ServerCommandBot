@@ -1,0 +1,15 @@
+{
+  "token": "NzkzNTgyNjI0MTAxNjI5OTUz.X-uXaQ.EzlJ3NHhCA_d_PLWqMA52Z8DjY4",
+  "join_message": "Server Control bot has joined",
+  "owners": [
+    257566605968408576
+  ],
+  "prefix": [
+    "!"
+  ],
+  "activity": "Accept Commands",
+  "activity_type": "playing|watching|listening|competing",
+  "status_type": "online|idle|dnd",
+  "alexflipnote_api": "",
+  "version": "2.0.2"
+}
