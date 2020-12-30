@@ -20,7 +20,7 @@ class Fun_Commands(commands.Cog):
         self.alex_api_token = self.config["alexflipnote_api"]
 
     @commands.command(aliases=['restartsf'])
-    async def rsf(self, ctx, *, question: commands.clean_content):
+    async def rsf(self, ctx):
         """ restart sky factory minecraft server """
         process = subprocess.Popen("/home/kid/screens/rsf.sh", stdout=subprocess.PIPE, shell=True, universal_newlines=True)
         output, error = process.communicate()
