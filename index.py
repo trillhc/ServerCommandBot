@@ -14,10 +14,9 @@ bot = Bot(
         guilds=True, members=True, messages=True, reactions=True, presences=True
     )
 )
-print("wtf")
+
 for file in os.listdir("cogs"):
     if file.endswith(".py"):
-        print(str(file))
         name = file[:-3]
         bot.load_extension(f"cogs.{name}")
 

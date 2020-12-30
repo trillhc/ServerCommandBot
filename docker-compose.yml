@@ -2,7 +2,7 @@ version: "3"
 
 services:
   bot:
-    container_name: "discord_bot.py"
+    container_name: "discordbot"
     build: .
     volumes:
       - ./config.json:/discord_bot/config.json
